@@ -1,0 +1,35 @@
+body,
+html {
+  height: 100%; }
+
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+section header h2::after {
+  background-color: #9c9c9c;
+  content: "";
+  height: 3px;
+  width: 36px;
+  display: block;
+  margin: 28px auto; }
+section header p {
+  color: #505050;
+  font-size: 18px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.bg {
+  position: relative;
+  z-index: 2;
+  padding: 120px 0 60px;
+  background-color: #fff; }
+
+/*# sourceMappingURL=styles.css.map */
